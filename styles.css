@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.square{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#btn{
+    font-size: 30px;
+}
+
+#header{
+    text-align:center;
+}
