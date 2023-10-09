@@ -3,7 +3,12 @@ let numberOfSquares = 16;
 const borderSize = 1; //in pixels
 
 function calcSquareWidth() {
-    let squareWidth = (containerWidth / numberOfSquares) - (borderSize * 2);
+    //let squareWidth = (containerWidth / numberOfSquares) - (borderSize * 2);
+
+    let squareWidth = (containerWidth / numberOfSquares) //+ /((containerWidth % numberOfSquares) / containerWidth)
+    //let remainder = (containerWidth % numberOfSquares) / containerWidth
+    console.log(squareWidth);
+    //console.log(remainder);
     return squareWidth;
 };
 
